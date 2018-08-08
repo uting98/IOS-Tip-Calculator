@@ -14,6 +14,7 @@
 		EC607167211B54DE00F69994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC607165211B54DE00F69994 /* LaunchScreen.storyboard */; };
 		EC607172211B54DF00F69994 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC607171211B54DF00F69994 /* TipCalculatorTests.swift */; };
 		EC60717D211B54DF00F69994 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC60717C211B54DF00F69994 /* TipCalculatorUITests.swift */; };
+		EC60718B211B71A200F69994 /* SettingViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC60718A211B71A200F69994 /* SettingViewControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EC607178211B54DF00F69994 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC60717C211B54DF00F69994 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		EC60717E211B54DF00F69994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC60718A211B71A200F69994 /* SettingViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				EC60715C211B54DE00F69994 /* AppDelegate.swift */,
 				EC60715E211B54DE00F69994 /* ViewController.swift */,
 				EC607160211B54DE00F69994 /* Main.storyboard */,
+				EC60718A211B71A200F69994 /* SettingViewControl.swift */,
 				EC607163211B54DE00F69994 /* Assets.xcassets */,
 				EC607165211B54DE00F69994 /* LaunchScreen.storyboard */,
 				EC607168211B54DE00F69994 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC60718B211B71A200F69994 /* SettingViewControl.swift in Sources */,
 				EC60715F211B54DE00F69994 /* ViewController.swift in Sources */,
 				EC60715D211B54DE00F69994 /* AppDelegate.swift in Sources */,
 			);
